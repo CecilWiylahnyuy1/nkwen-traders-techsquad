@@ -1,0 +1,102 @@
+[
+    {
+        "name":"Tomato Paste (tin)",
+        "category":"Groceries",
+        "price":348.0
+    },
+    {
+        "name":"Onions 1kg",
+        "category":"Produce",
+        "price":687.0
+    },
+    {
+        "name":"Rice 25kg",
+        "category":"Grains",
+        "price":17935.0
+    },
+    {
+        "name":"Soap (bar)",
+        "category":"Household",
+        "price":398.0
+    },
+    {
+        "name":"Palm Oil 5L",
+        "category":"Oils",
+        "price":7010.0
+    },
+    {
+        "name":"Palm Oil 1L",
+        "category":"Oils",
+        "price":1400.0
+    },
+    {
+        "name":"Maggi Cubes (pack)",
+        "category":"Groceries",
+        "price":478.0
+    },
+    {
+        "name":"Beans (Red)",
+        "category":"Grains",
+        "price":890.0
+    },
+    {
+        "name":"Rice 50kg",
+        "category":"Grains",
+        "price":36222.0
+    },
+    {
+        "name":"Beans (White)",
+        "category":"Grains",
+        "price":818.0
+    },
+    {
+        "name":"Detergent 1kg",
+        "category":"Household",
+        "price":1747.0
+    },
+    {
+        "name":"Plantain (bunch)",
+        "category":"Produce",
+        "price":2547.0
+    },
+    {
+        "name":"Salt 1kg",
+        "category":"Groceries",
+        "price":297.0
+    },
+    {
+        "name":"Cassava (bag)",
+        "category":"Produce",
+        "price":4203.0
+    },
+    {
+        "name":"Milk Powder 400g",
+        "category":"Dairy",
+        "price":2746.0
+    },
+    {
+        "name":"Vegetable Oil 5L",
+        "category":"Oils",
+        "price":7544.0
+    },
+    {
+        "name":"Matches (box)",
+        "category":"Household",
+        "price":103.0
+    },
+    {
+        "name":"Sugar 1kg",
+        "category":"Groceries",
+        "price":796.0
+    },
+    {
+        "name":"Tomatoes 1kg",
+        "category":"Produce",
+        "price":785.0
+    },
+    {
+        "name":"Bread (loaf)",
+        "category":"Bakery",
+        "price":594.0
+    }
+]
