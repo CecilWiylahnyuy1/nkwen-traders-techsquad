@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nkwen Traders</title>
+  <meta name="description" content="Get in touch with Nkwen Traders, or find a branch near you.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Primary">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">Nkwen Traders</span>
+        <span class="brand-tagline">Est. 1994 · Northwest Region</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 2rem;">
+      <div class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h1>We'd like to hear from you</h1>
+        <p class="lede">Questions about a branch, a bulk order, or a product we should carry? Send us a note.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-layout">
+        <div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-field">
+              <label for="branch">Branch (optional)</label>
+              <select id="branch" name="branch">
+                <option value="">No specific branch</option>
+                <option value="nkwen-main">Nkwen Main, Bamenda</option>
+                <option value="kondengui">Kondengui Branch, Bamenda</option>
+                <option value="bafut">Bafut Branch</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <p class="form-note">
+              This form is front-end only for now — no message is sent yet.
+              We'll wire up real delivery in a later phase of the project.
+            </p>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send message</button>
+            <p class="form-success" id="form-success">
+              Thanks — your message looks good. (Nothing was actually sent; this is a front-end-only form.)
+            </p>
+          </form>
+        </div>
+
+        <div class="card contact-info-card">
+          <h3>Branch hours</h3>
+          <p>Monday–Saturday, 7:30am–7:00pm<br>Sunday, 9:00am–2:00pm</p>
+          <h3>Head office</h3>
+          <address>
+            Nkwen Traders Ltd.<br>
+            Nkwen Main Branch<br>
+            Bamenda, Northwest Region<br>
+            Cameroon
+          </address>
+          <h3>General enquiries</h3>
+          <p><a href="mailto:hello@nkwentraders.example">hello@nkwentraders.example</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Nkwen Traders</h3>
+        <p>Everyday goods for Northwest Cameroon, since 1994.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <p><a href="catalog.html">Catalog</a></p>
+        <p><a href="about.html">About us</a></p>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <p><a href="contact.html">Contact & branches</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      &copy; 2026 Nkwen Traders Ltd. Fictional business built for the I-NNOVA Kickstarter Collaborate project.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      document.getElementById("form-success").classList.add("visible");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
