@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog — Nkwen Traders</title>
+  <meta name="description" content="Browse Nkwen Traders products: pantry staples, snacks, and imported specialty items.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Primary">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">Nkwen Traders</span>
+        <span class="brand-tagline">Est. 1994 · Northwest Region</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html" aria-current="page">Catalog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 2rem;">
+      <div class="container">
+        <p class="eyebrow">Catalog</p>
+        <h1>What's on the shelf</h1>
+        <p class="lede">Search by name, or filter by category to jump straight to staples, snacks, or specialty items.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="catalog-controls">
+          <label for="catalog-search" style="font-weight:600; color: var(--color-indigo-dark);">Search products</label>
+          <input type="search" id="catalog-search" placeholder="Try 'honey' or 'groundnuts'…" autocomplete="off">
+          <div class="category-filters" id="category-filters" role="group" aria-label="Filter by category"></div>
+        </div>
+
+        <p class="catalog-status" id="catalog-status" aria-live="polite">Loading products…</p>
+
+        <div class="grid grid-4" id="product-grid"></div>
+
+        <p class="catalog-empty" id="catalog-empty">
+          No products match that search. Try a different term or clear the filter.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Nkwen Traders</h3>
+        <p>Everyday goods for Northwest Cameroon, since 1994.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <p><a href="catalog.html">Catalog</a></p>
+        <p><a href="about.html">About us</a></p>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <p><a href="contact.html">Contact & branches</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      &copy; 2026 Nkwen Traders Ltd. Fictional business built for the I-NNOVA Kickstarter Collaborate project.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="catalog.js"></script>
+</body>
+</html>
