@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
         <span class="brand-mark">Nkwen Traders</span>
         <span class="brand-tagline">Est. 1994 · Northwest Region</span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">&#9776;</button>
       <ul class="nav-links" id="primary-nav">
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="catalog.html">Catalog</a></li>
@@ -26,7 +26,11 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero hero-video-wrap">
+      <video id="hero-video"class="hero-bg-video" autoplay muted loop playsinline controls>
+  <source src="./food-market.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
       <div class="container">
         <p class="eyebrow">Six branches, one trusted name</p>
         <h1>The pantry staples and snack aisle your neighborhood counts on.</h1>
@@ -49,15 +53,15 @@
           <h2>A specialty in three parts</h2>
         </div>
         <div class="grid grid-3">
-          <div class="card">
+          <div class="card reveal">
             <h3>Pantry staples, always in stock</h3>
             <p>Semovita, cocoyam flour, palm oil — the basics we make sure never run out, branch to branch.</p>
           </div>
-          <div class="card">
+          <div class="card reveal">
             <h3>The snack aisle everyone knows</h3>
             <p>Roasted groundnuts and fresh chin-chin, baked and bagged weekly. Ask any regular customer.</p>
           </div>
-          <div class="card">
+          <div class="card reveal">
             <h3>Imported & specialty finds</h3>
             <p>Highland honey, local coffee, and imported treats that rotate with the season and back-to-school demand.</p>
           </div>
@@ -72,17 +76,17 @@
           <h2>Six branches across the Northwest</h2>
         </div>
         <div class="grid grid-3">
-          <div class="card branch-card">
+          <div class="card branch-card reveal">
             <h3>Nkwen Main</h3>
             <p class="branch-loc">Bamenda, Nkwen</p>
             <p>Our founding branch and flagship location, open since 1994.</p>
           </div>
-          <div class="card branch-card">
+          <div class="card branch-card reveal">
             <h3>Kondengui Branch</h3>
             <p class="branch-loc">Bamenda, Kondengui</p>
             <p>Home of our weekly-baked chin-chin, sold fresh on Fridays.</p>
           </div>
-          <div class="card branch-card">
+          <div class="card branch-card reveal">
             <h3>Bafut Branch</h3>
             <p class="branch-loc">Bafut</p>
             <p>Closest to our honey cooperative partners in the highlands.</p>
@@ -95,6 +99,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
+         <img src="photo.png" alt="Nkwen Traders photo" class="footer-photo">
         <h3>Nkwen Traders</h3>
         <p>Everyday goods for Northwest Cameroon, since 1994.</p>
       </div>
