@@ -1,0 +1,124 @@
+[
+    {
+        "name":"Tomato Paste (tin)",
+        "category":"Groceries",
+        "price":348.0,
+        "image":"Tin tomato.jpg"
+
+    },
+    {
+        "name":"Onions 1kg",
+        "category":"Produce",
+        "price":687.0,
+        "image":"Onions.jpg"
+    },
+    {
+        "name":"Rice 25kg",
+        "category":"Grains",
+        "price":17935.0,
+        "image":"A bag of rice.jpg"
+    },
+    {
+        "name":"Soap (bar)",
+        "category":"Household",
+        "price":398.0,
+        "image":"A slice of savon.jpg"
+    },
+    {
+        "name":"Palm Oil 5L",
+        "category":"Oils",
+        "price":7010.0,
+        "image":"palm oil 5L.jpg"
+    },
+    {
+        "name":"Palm Oil 1L",
+        "category":"Oils",
+        "price":1400.0,
+        "image":"1L palm oil.jpg"
+    },
+    {
+        "name":"Maggi Cubes (pack)",
+        "category":"Groceries",
+        "price":478.0,
+        "image":"Maggi Cubes.jpg"
+    },
+    {
+        "name":"Beans (Red)",
+        "category":"Grains",
+        "price":890.0,
+        "image":"Red beans.jpg"
+    },
+    {
+        "name":"Rice 50kg",
+        "category":"Grains",
+        "price":36222.0,
+        "image":"A bag of rice.jpg"
+    },
+    {
+        "name":"Beans (White)",
+        "category":"Grains",
+        "price":818.0,
+        "image":"White beans.jpg"
+    },
+    {
+        "name":"Detergent 1kg",
+        "category":"Household",
+        "price":1747.0,
+        "image":"A bag of omo.jpg"
+    },
+    {
+        "name":"Plantain (bunch)",
+        "category":"Produce",
+        "price":2547.0,
+        "image":"plantians.jpg"
+    },
+    {
+        "name":"Salt 1kg",
+        "category":"Groceries",
+        "price":297.0,
+        "image":"1 bag of salt.jpg"
+    },
+    {
+        "name":"Cassava (bag)",
+        "category":"Produce",
+        "price":4203.0,
+        "image":"Cassava (bag).jpg"
+    },
+    {
+        "name":"Milk Powder 400g",
+        "category":"Dairy",
+        "price":2746.0,
+        "image":"Nido milk.jpg"
+
+    },
+    {
+        "name":"Vegetable Oil 5L",
+        "category":"Oils",
+        "price":7544.0,
+        "image":"Vegetable Oil.jpg"
+    },
+    {
+        "name":"Matches (box)",
+        "category":"Household",
+        "price":103.0,
+        "image":"box of matches.jpg"
+    },
+    {
+        "name":"Sugar 1kg",
+        "category":"Groceries",
+        "price":796.0,
+        "image":"A bag of sugar.jpg"
+    },
+    {
+        "name":"Tomatoes 1kg",
+        "category":"Produce",
+        "price":785.0,
+        "image":"Tomatoes.jpg"
+    },
+    {
+        "name":"Bread (loaf)",
+        "category":"Bakery",
+        "price":594.0,
+        "image":"Bread .jpg"
+    }
+]
